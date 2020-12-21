@@ -1,0 +1,95 @@
+---
+layout: default
+title: afishmandesign
+---
+
+<div class="blurb">
+    <h1>afishmandesign</h1>
+
+    <button type="button" class="collapsible">bio/information</button>
+    <div class="content">
+    <p>
+        some text
+
+    </p>
+    <button type="button" class="collapsible">bio/information</button>
+    <div class="content">
+    <p>
+        some text
+
+    </p>
+    <button type="button" class="collapsible">agency-of-record</button>
+    <div class="content">
+    <p>
+        some text
+
+    </p>
+    <button type="button" class="collapsible">institutional identity</button>
+    <div class="content">
+    <p>
+        some text
+        
+
+    </p>
+    <button type="button" class="collapsible">capital campaign</button>
+    <div class="content">
+    <p>
+        some text
+
+    </p>
+
+    <button type="button" class="collapsible">print collateral</button>
+    <div class="content">
+    <p>
+        some text
+
+    </p>
+    <button type="button" class="collapsible">out-of-home</button>
+    <div class="content">
+    <p>
+        some text
+
+
+    </p>
+
+    <button type="button" class="collapsible">social media</button>
+    <div class="content">
+    <p>
+        some text
+
+    </p>
+
+    <button type="button" class="collapsible">video and motion</button>
+    <div class="content">
+    <p>
+        some text
+
+    </p>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            } 
+        });
+        }
+    </script>
+	<!-- <h2>Microbial Ecology and Evolution </h2>
+	<p>
+		Hi, I'm Ford Fishman. Currently, I am a PhD student at Indiana University in the 
+		<a href="https://microbes.sitehost.iu.edu/"> Lennon Lab</a>. I'm primarily interested 
+		in how the coevolution between bacteria and their viruses is impacted by horizontal gene
+		transfer spatial and temporal separation. At the moment, I am primarily using computational
+		modeling to study these interactions, but I am hoping to soon test the results of my 
+		models in the wet lab. <br>
+	</p> -->
+	<br>
+</div><!-- /.blurb -->
