@@ -34,10 +34,10 @@ title: afishmandesign
         <div class="panel panel-default">
           <div class="panel-heading">
             <h1 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">agency-of-record</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1"><i class="more-less glyphicon glyphicon-plus"></i>agency-of-record</a>
             </h1>
           </div>
-          <div id="collapse1" class="panel-collapse collapse in">
+          <div id="collapse1" class="panel-collapse collapse">
             <div class="panel-body">
                 <div class="row">
                     <div class="col-lg-4">   
@@ -51,16 +51,16 @@ title: afishmandesign
                             </a>
                         </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="container2">
-                        <img src="/imgs/beagle.jpg" alt="doggo" class="img-fluid">
-                        <div class="middle">
-                            <div class="text2">good doggo</div>
+                    <div class="col-lg-4">
+                        <div class="container2">
+                            <img src="/imgs/beagle.jpg" alt="doggo" class="img-fluid">
+                            <div class="middle">
+                                <div class="text2">good doggo</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-          </div>
         </div>
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -161,6 +161,16 @@ title: afishmandesign
             } 
         });
         }
+    </script>
+    <script>
+        function toggleIcon(e) {
+            $(e.target)
+                .prev('.panel-heading')
+                .find(".more-less")
+                .toggleClass('glyphicon-plus glyphicon-minus');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
     </script>
 
 	<br>
