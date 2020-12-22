@@ -1,5 +1,5 @@
 body {
-    max-width: 850px;
+    max-width: 1200px;
     padding: 12px;
     padding-bottom: 0;
   }
@@ -63,8 +63,7 @@ body {
       text-decoration: underline;
   }
   h1 {
-      font-size: 3em;
-      /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
+      font-size: 4em;
       font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
   }
   h2 {
@@ -117,6 +116,7 @@ body {
   .collapsible {
     background-color: white;
     color: black;
+    font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -137,7 +137,7 @@ body {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: white;
   }
   
   .collapsible:after {
