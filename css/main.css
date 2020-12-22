@@ -175,7 +175,7 @@ body {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: white;
   }
   
   .container:hover .overlay {
@@ -183,7 +183,8 @@ body {
   }
   
   .text {
-    color: white;
+    color: black;
+    font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -232,4 +233,5 @@ body {
     color: white;
     font-size: 16px;
     padding: 16px 32px;
+    font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
   }
