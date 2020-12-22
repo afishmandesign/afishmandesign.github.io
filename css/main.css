@@ -18,7 +18,8 @@ body {
       overflow: hidden;
       background-color: #333;
       font-weight: bold;
-      font-family:'Helvetica', 'Arial', 'Sans-Serif';
+      /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
+      font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
   }
   nav li {
     float: left;
@@ -62,7 +63,8 @@ body {
   }
   h1 {
       font-size: 3em;
-      font-family:'Helvetica', 'Arial', 'Sans-Serif';
+      /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
+      font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
   }
   h2 {
       font-size: 2em;
@@ -115,8 +117,8 @@ body {
   
   /* Style the button that is used to open and close the collapsible content */
   .collapsible {
-    background-color: #777;
-    color: #444;
+    background-color: #ccc;
+    color: #ccc;
     cursor: pointer;
     padding: 18px;
     width: 100%;
