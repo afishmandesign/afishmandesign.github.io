@@ -5,8 +5,8 @@ body {
   }
   @media only screen and (min-width: 481px) {
     body {
-      padding-top: 24px;
-      padding-right: 24px;
+      padding-top: 12px;
+      padding-right: 12px;
       padding-left: 12px;
     }
   }
@@ -118,7 +118,7 @@ body {
     color: black;
     font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
     cursor: pointer;
-    padding: 18px;
+    padding: 5px;
     width: 100%;
     border: none;
     text-align: left;
@@ -133,7 +133,7 @@ body {
   
   /* Style the collapsible content. Note: hidden by default */
   .content {
-    padding: 0 18px;
+    padding: 0 5px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
