@@ -88,15 +88,7 @@ body {
       border-top: 1px solid #d5d5d5;
       font-size: .8em;
   }
-  
-  ul.posts { 
-      margin: 20px auto 40px; 
-      font-size: 1.5em;
-  }
-  
-  ul.posts li {
-      list-style: none;
-  }
+
   
   [class^="icon"] {
     height: 20px;
@@ -118,7 +110,7 @@ body {
     color: black;
     font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
     cursor: pointer;
-    padding: 5px;
+    margin-top: 2px;
     width: 100%;
     border: none;
     text-align: left;
