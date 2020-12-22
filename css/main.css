@@ -146,7 +146,6 @@ body {
   
   .collapsible:after {
     content: '\002B';
-    font-size: 4em;
     color: black;
     float: right;
     margin-left: 5px;
