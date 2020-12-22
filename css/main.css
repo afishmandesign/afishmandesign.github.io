@@ -153,7 +153,7 @@ body {
   }
   
   /* Images */
-  .container {
+  .container1 {
     position: relative;
     width: 50%;
   }
@@ -177,7 +177,7 @@ body {
     background-color: white;
   }
   
-  .container:hover .overlay {
+  .container1:hover .overlay {
     opacity: 1;
   }
   
