@@ -163,8 +163,8 @@ body {
 /* relevant styles */
 .img__wrap {
   position: relative;
-  /* height: 200px;
-  width: 257px; */
+  height: 200px;
+  width: 257px;
 }
 
 .img__description {
@@ -184,5 +184,5 @@ body {
 
 .img__wrap:hover .img__description {
   visibility: visible;
-  opacity: 1;
+  opacity: 0.1;
 }
