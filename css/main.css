@@ -102,7 +102,10 @@ body {
     font-size: 4em;
   }
 
-  
+  .design-word { 
+    color: #FF4F26; 
+  } 
+
   [class^="icon"] {
     height: 20px;
     width: 20px;
@@ -133,7 +136,7 @@ body {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .collapsible:hover {
-    background-color: #ccc;
+    background-color: #ECECEB;
   }
   
   /* Style the collapsible content. Note: hidden by default */
