@@ -89,6 +89,16 @@ body {
       font-size: .8em;
   }
 
+  button {
+    border: none;
+    color: white;
+    margin-top: 6px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+  }
+
   
   [class^="icon"] {
     height: 20px;
