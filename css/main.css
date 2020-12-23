@@ -112,7 +112,13 @@ body {
   .design-word { 
     color: #FF4F26; 
   } 
-  .panel-default > .panel-heading {
+
+  .plus-minus {
+    color: black;
+    font-size: 4em;
+    float: right;
+  }
+  /* .panel-default > .panel-heading {
     position: relative;
   }
   .panel-heading .fa {
@@ -151,7 +157,7 @@ body {
 
   .panel-default > .panel-heading + .panel-collapse > .panel-body {
       border-top-color: white;
-  }
+  } */
 
   [class^="icon"] {
     height: 20px;
