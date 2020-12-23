@@ -118,7 +118,7 @@ body {
     font-size: 4em;
     float: right;
   }
-  
+
   .panel-default > .panel-heading {
       padding: 0;
       border-radius: 0;
@@ -226,7 +226,7 @@ body {
   }
   
   .container1:hover .overlay {
-    opacity: 1;
+    opacity: 0.3;
   }
   
   .text {
