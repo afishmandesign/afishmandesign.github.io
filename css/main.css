@@ -197,7 +197,7 @@ body {
   }
   
   .active:after {
-    content: "\2715"; /* Unicode character for "minus" sign (-) */
+    content: "\00D7";
   }
   
   /* Images */
