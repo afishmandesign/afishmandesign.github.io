@@ -118,21 +118,7 @@ body {
     font-size: 4em;
     float: right;
   }
-  /* .panel-default > .panel-heading {
-    position: relative;
-  }
-  .panel-heading .fa {
-      position: absolute;
-      right: 10px;
-      top: 13px;
-  }
-
-  .panel-group .panel {
-    border-radius: 0;
-    box-shadow: none;
-    /* border-color: #EEEEEE; */
-}
-
+  
   .panel-default > .panel-heading {
       padding: 0;
       border-radius: 0;
