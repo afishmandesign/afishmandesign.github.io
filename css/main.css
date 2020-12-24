@@ -113,36 +113,6 @@ body {
     color: #FF4F26; 
   } 
 
-  /* .plus-minus {
-    color: black;
-    font-size: 4em;
-    float: right;
-  } */
-
-  /* .panel-default > .panel-heading {
-      padding: 0;
-      border-radius: 0;
-      color: #212121;
-  } */
-
-  /* .panel-title {
-      font-size: 4em;
-      font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
-
-  }
-
-  .panel-title > a {
-      display: block;
-      padding: 0;
-      text-decoration: none;
-      color: black;
-  }
-
-
-  .panel-default > .panel-heading + .panel-collapse > .panel-body {
-      border-top-color: white;
-  }  */
-
   [class^="icon"] {
     height: 20px;
     width: 20px;
