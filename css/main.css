@@ -154,8 +154,8 @@ body {
   
   /* Style the collapsible content. Note: hidden by default */
   .content {
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -240,7 +240,7 @@ body {
   }
   
   .hover-3 img {
-    width: 110%;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -251,7 +251,7 @@ body {
   }
   
   .hover-3:hover img {
-    width: 100%;
+    width: 110%;
   }
   
   .hover-3:hover::after {
