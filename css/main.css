@@ -259,11 +259,14 @@ body {
     background: rgba(0, 0, 0, 0.8);
   }
   
-  .hover-3-description> p {
+  p.hover-3-description {
     font-size: 1.0em;
     line-height: 0.9em;
     color: white;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
     line-height: 1.2;
 }
