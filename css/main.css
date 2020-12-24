@@ -168,89 +168,6 @@ body {
     content: "\00D7";
   }
   
-  /* Images */
-  /* .container1 {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: white;
-  }
-  
-  .container1:hover .overlay {
-    opacity: 0.3;
-  }
-  
-  .text {
-    color: black;
-    font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-  .container2 {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image2 {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: 100;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 100%;
-    left: 100%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .container2:hover .image2 {
-    opacity: 0.3;
-  }
-  
-  .container2:hover .middle {
-    opacity: 1;
-  }
-  
-  .text2 {
-    background-color: rgba(34, 34, 41, 0.63);
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-    font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
-  } */
-
   .hover {
     overflow: hidden;
     position: relative;
@@ -341,3 +258,12 @@ body {
   .hover-3:hover .hover-overlay {
     background: rgba(0, 0, 0, 0.8);
   }
+  
+  .hover-3-description> p {
+    font-size: 1.0em;
+    line-height: 0.9em;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
