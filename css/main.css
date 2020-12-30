@@ -130,16 +130,14 @@ button {
 
 .col-text {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
-  line-height: 0.8em;
+  line-height: 1.2em;
   font-weight: lighter;
   font-size: 10pt;
   font-size: 1.4vw;
 }
 
-h5.col-text {
-  font-size: 10pt;
-  font-size: 1.4vw;
-  color: #FF4F26;
+.container.row {
+  padding: 0;
 }
 
 [class^="icon"] {
