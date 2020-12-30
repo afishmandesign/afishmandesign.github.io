@@ -127,6 +127,17 @@ button {
   color: #FF4F26;
 }
 
+.col-text {
+  font-size: 10pt;
+  font-size: 1.4vw;
+}
+
+h5.col-text {
+  font-size: 10pt;
+  font-size: 1.4vw;
+  color: #FF4F26;
+}
+
 [class^="icon"] {
   height: 20px;
   width: 20px;
