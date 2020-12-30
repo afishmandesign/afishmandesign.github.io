@@ -16,14 +16,7 @@ body {
   padding: 12px;
   padding-bottom: 0;
   }
-@media only screen and (min-width: 481px) {
-  body {
-    padding-top: 12px;
-    padding-right: 12px;
-    padding-left: 12px;
-    color: black;
-  }
-}
+
 .container{
   margin:0;
 }
@@ -34,18 +27,22 @@ a {
 }
 
 h1 {
-  font-size: 4em;
-  font-size: 6vw;
   margin: 5px;
   margin-left: 0;
   padding: 0;
 }
 h2 {
-  font-size: 2em;
+  font-size: 1em;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 0.5em;
 }
+
+h1, button {
+  font-size: 2em;
+  font-size: 9vw;
+}
+
 p {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
     font-weight:lighter;
@@ -63,9 +60,6 @@ button {
   margin-top: 6px;
   text-align: center;
   text-decoration: none;
-  /* display: inline-block; */
-  font-size: 4em;
-  font-size: 6vw;
 }
 
 .design-word { 
@@ -255,4 +249,25 @@ p.hover-3-description {
   margin-left: 0;
   margin-right: 0;
   line-height: 1.2;
+}
+
+@media only screen and (min-width: 481px) {
+  body {
+    max-width: 1400px;
+  }
+
+  p {
+    font-size: 14pt;
+    font-size: 2vw;
+  }
+
+  .col-text {
+    font-size: 10pt;
+    font-size: 1.6vw;
+  }
+
+  h1, button {
+    font-size: 4em;
+    font-size: 6vw;
+  }
 }
