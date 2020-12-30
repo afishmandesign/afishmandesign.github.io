@@ -47,7 +47,7 @@ p {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
     font-weight:lighter;
     font-size: 14pt;
-    font-size: 2vw;
+    font-size: 4vw;
     line-height: 0.9em;
     color: black;
     text-align:left;
@@ -75,7 +75,7 @@ a:hover, .phone-num:hover {
   line-height: 1.2em;
   font-weight: lighter;
   font-size: 10pt;
-  font-size: 1.6vw;
+  font-size: 3vw;
 }
 
 .container.row {
