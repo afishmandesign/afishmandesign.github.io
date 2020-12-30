@@ -5,283 +5,289 @@ body {
     font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
 
   }
-  @media only screen and (min-width: 481px) {
-    body {
-      padding-top: 12px;
-      padding-right: 12px;
-      padding-left: 12px;
-      font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
-      color: black;
-    }
-  }
-  .container{
-    margin:0;
-  }
-  nav ul {
-      list-style-type: none;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-      font-weight: bold;
-      /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
-  }
-  nav li {
-    float: left;
-  }
-  
-  nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  nav li a:hover {
-    background-color: #111;
-  }
-  
-  nav .active {
-    background-color: rgb(56, 78, 179);
-  }
-  footer ul {
-      list-style-type: none;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      font-weight: bold;
-      font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
-;
-  }
-  nav ul li, footer ul li {
-      display: inline;
-      margin-right: 20px;
-  }
-  a {
-      text-decoration: none;
-      color: #999;
-  }
-  a:hover {
-      text-decoration: underline;
-  }
-  h1 {
-      font-size: 4em;
-      font-size: 6vw;
-      margin: 5px;
-      margin-left: 0;
-      padding: 0;
-      font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
-  }
-  h2 {
-      font-size: 2em;
-      font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
-
-      
-  }
-  h3 {
-      font-size: 1.5em;
-      font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
-
-  }
-  p {
-      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
-      font-size: 14pt;
-      font-size: 2vw;
-      line-height: 0.9em;
-      color: #333;
-      text-align: justify;
-      text-justify: inter-word;
-      /* margin-top: 20px;
-      margin-bottom: 10px;
-      margin-right: 150px;
-      margin-left: 50px; */
-      line-height: 1.2;
-  }
-  footer {
-      border-top: 1px solid #d5d5d5;
-      font-size: .8em;
-      
-  }
-
-  button {
-    border: none;
-    color: white;
-    margin-top: 6px;
-    text-align: center;
-    text-decoration: none;
-    /* display: inline-block; */
-    font-size: 4em;
-    font-size: 6vw;
-  }
-
-  .design-word { 
-    color: #FF4F26; 
-  } 
-
-  [class^="icon"] {
-    height: 20px;
-    width: 20px;
-    position: relative;
-    padding-right: 5px;
-    vertical-align: middle;
-  }
-  
-  .icon-twitter {
-    content: url('/pics/twitter.jpg');
-  
-    /* display: inline-block; */
-  }
-  
-  /* Style the button that is used to open and close the collapsible content */
-  .collapsible {
-    background-color: white;
-    color: black;
+@media only screen and (min-width: 481px) {
+  body {
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
     font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
-    cursor: pointer;
-    margin: 0;
-    padding:0;
-    width: 100%;
-    text-align: left;
-    outline: none;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .collapsible:focus, .active, .collapsible:hover {
-    background-color: #ECECEB;
-    border: none;
-    outline: none;
-  }
-  
-  /* Style the collapsible content. Note: hidden by default */
-  .content {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: white;
-  }
-  
-  .collapsible:after {
-    content: '\002B';
     color: black;
-    float: right;
-    margin-left: 5px;
   }
-  
-  .active:after {
-    content: "\00D7";
-  }
+}
+.container{
+  margin:0;
+}
+nav ul {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-weight: bold;
+  /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
+}
+nav li {
+  float: left;
+}
 
-  .row>* {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  
-  .hover {
-    overflow: hidden;
-    position: relative;
-    padding-bottom: 100%;
-  }
-  
-  .hover-overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 90;
-    transition: all 0.4s;
-  }
-  
-  .hover img {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: all 0.3s;
-  }
-  
-  .hover-content {
-    position: relative;
-    z-index: 99;
-  }
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  .hover-3::after {
-    content: '';
-    width: calc(100% - 3rem);
-    height: calc(100% - 3rem);
-    /* border: 1px solid #fff; */
-    position: absolute;
-    top: 1.5rem;
-    left: 1.5rem;
-    z-index: 90;
-    transition: all 0.3s;
-    transform: scale(1.1);
-    opacity: 0;
-    display: block;
-    opacity: 0;
-  }
-  
-  .hover-3-content {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    transform: translateY(-50%);
-    text-align: center;
-    z-index: 99;
-  }
-  
-  .hover-3-description {
-    opacity: 0;
-    transform: scale(1.3);
-    transition: all 0.3s;
-  }
-  
-  .hover-3 img {
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .hover-3 .hover-overlay {
-    background: rgba(0, 0, 0, 0.2);
-  }
-  
-  .hover-3:hover img {
-    width: 110%;
-  }
-  
-  .hover-3:hover::after {
-    opacity: 1;
-    transform: none;
-  }
-  
-  .hover-3:hover .hover-3-description {
-    opacity: 1;
-    transform: none;
-    color: white;
-  }
-  
-  .hover-3:hover .hover-overlay {
-    background: rgba(0, 0, 0, 0.8);
-  }
-  
-  p.hover-3-description {
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+nav .active {
+  background-color: rgb(56, 78, 179);
+}
+footer ul {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
+;
+}
+
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+  font-size: 4em;
+  font-size: 6vw;
+  margin: 5px;
+  margin-left: 0;
+  padding: 0;
+  font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
+}
+h2 {
+  font-size: 2em;
+  font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
+}
+h3 {
+  font-size: 1.5em;
+  font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
+}
+p {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
-    font-size: 1.0em;
+    font-size: 14pt;
+    font-size: 2vw;
     line-height: 0.9em;
-    color: white;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    /* margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-left: 50px; */
     line-height: 1.2;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    
+}
+
+button {
+  border: none;
+  color: white;
+  margin-top: 6px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 4em;
+  font-size: 6vw;
+}
+
+.design-word { 
+  color: #FF4F26; 
+}
+
+.phone-num:hover {
+  color: #FF4F26;
+}
+
+[class^="icon"] {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+.icon-twitter {
+  content: url('/pics/twitter.jpg');
+
+  /* display: inline-block; */
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: white;
+  color: black;
+  font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; 
+  cursor: pointer;
+  margin: 0;
+  padding:0;
+  width: 100%;
+  text-align: left;
+  outline: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible:focus, .active, .collapsible:hover {
+  background-color:  #f5f5f4;
+  color:  #FF4F26;
+  border: none;
+  outline: none;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\00D7";
+}
+
+.row>* {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+.hover-3::after {
+  content: '';
+  width: calc(100% - 3rem);
+  height: calc(100% - 3rem);
+  /* border: 1px solid #fff; */
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 90;
+  transition: all 0.3s;
+  transform: scale(1.1);
+  opacity: 0;
+  display: block;
+  opacity: 0;
+}
+
+.hover-3-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 99;
+}
+
+.hover-3-description {
+  opacity: 0;
+  transform: scale(1.3);
+  transition: all 0.3s;
+}
+
+.hover-3 img {
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-3 .hover-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.hover-3:hover img {
+  width: 110%;
+}
+
+.hover-3:hover::after {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-3:hover .hover-3-description {
+  opacity: 1;
+  transform: none;
+  color: white;
+}
+
+.hover-3:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+p.hover-3-description {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+  font-size: 1.0em;
+  line-height: 0.9em;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 1.2;
 }
