@@ -12,7 +12,6 @@ body {
     padding-top: 12px;
     padding-right: 12px;
     padding-left: 12px;
-    /* font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600;  */
     color: black;
   }
 }
@@ -20,14 +19,9 @@ body {
   margin:0;
 }
 
-
 a {
   text-decoration: none;
   color: #999;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 h1 {
@@ -50,18 +44,8 @@ p {
     font-size: 2vw;
     line-height: 0.9em;
     color: #333;
-    text-align: justify;
-    text-justify: inter-word;
-    /* margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 150px;
-    margin-left: 50px; */
+    text-align:left;
     line-height: 1.2;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-    
 }
 
 button {
@@ -79,7 +63,7 @@ button {
   color: #FF4F26; 
 }
 
-.phone-num:hover {
+a:hover, .phone-num:hover {
   color: #FF4F26;
 }
 
@@ -88,7 +72,7 @@ button {
   line-height: 1.2em;
   font-weight: lighter;
   font-size: 10pt;
-  font-size: 1.4vw;
+  font-size: 1.6vw;
 }
 
 .container.row {
@@ -127,6 +111,11 @@ button {
   color:  #FF4F26;
   border: none;
   outline: none;
+}
+
+.active, .collapsible:hover {
+  background-color:  #f5f5f4;
+  color:  #FF4F26;
 }
 
 /* Style the collapsible content. Note: hidden by default */
