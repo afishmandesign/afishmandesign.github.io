@@ -149,9 +149,10 @@ a:hover, .phone-num:hover {
 }
 
 .hover {
+  height: 294px;
   overflow: hidden;
   position: relative;
-  padding-bottom: 100%;
+  /* padding-bottom: 100%; */
 }
 
 .hover-overlay {
@@ -194,10 +195,9 @@ a:hover, .phone-num:hover {
 
 .hover-2-content {
   position: absolute;
-  top: 0%;
-  left: 0;
-  width: 100%;
-  transform: translateY(-50%);
+  top: -8%;
+  left: -5.1%;
+  /* transform: translateY(-50%); */
   text-align: left;
   z-index: 99;
 }
