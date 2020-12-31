@@ -207,8 +207,10 @@ a:hover, .phone-num:hover {
   transform: scale(1.3);
   transition: all 0.3s;
 }
-
-.hover-2 img, .hover-3 img {
+.hover-2 img {
+  width: 100%;
+}
+.hover-3 img {
   width: 100%;
   top: 50%;
   left: 50%;
