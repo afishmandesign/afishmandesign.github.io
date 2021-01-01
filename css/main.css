@@ -284,7 +284,9 @@ p.hover-3-description {
 .hover-text {
   background-color: white;
   color: black;
-  font-size: 12pt;
+  line-height: 1.2;
+  font-size: 14pt;
+  font-size: 3.5vw;
 }
 
 @media only screen and (min-width: 481px) {
@@ -310,5 +312,10 @@ p.hover-3-description {
   h3 {
     font-size: 2em;
     font-size: 4vw;
+  }
+
+  .hover-text {
+    font-size: 14pt;
+    font-size: 2vw;
   }
 }
