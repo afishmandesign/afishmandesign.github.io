@@ -277,7 +277,7 @@ p.hover-3-description {
   text-align: left;
 }
 
-.container:hover .hover-box {
+.hover-container:hover .hover-box {
   opacity: 1;
 }
 
