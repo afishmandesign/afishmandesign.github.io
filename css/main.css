@@ -15,7 +15,7 @@ body {
   max-width: 1400px;
   padding: 12px;
   padding-bottom: 0;
-  }
+}
 
 .container{
   margin:0;
@@ -296,7 +296,7 @@ p.hover-3-description {
 
   p {
     font-size: 14pt;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   .col-text {
@@ -316,6 +316,6 @@ p.hover-3-description {
 
   .hover-text {
     font-size: 14pt;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
