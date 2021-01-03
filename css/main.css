@@ -67,6 +67,18 @@ button {
   color: #FF4F26; 
 }
 
+.gif-word {
+  color: black;
+  font-size: 40pt;
+  text-align:center;
+}
+
+.gif-word a:hover{
+  color: black;
+  outline: black;
+  text-decoration: none;
+}
+
 a:hover, .phone-num:hover {
   color: #FF4F26;
 }
