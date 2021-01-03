@@ -63,6 +63,12 @@ button {
   text-decoration: none;
 }
 
+footer .row {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+  font-size: 10;
+
+}
+
 .design-word { 
   color: #FF4F26; 
 }
