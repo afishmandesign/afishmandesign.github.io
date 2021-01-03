@@ -79,14 +79,14 @@ footer a:hover{
   color: #FF4F26; 
 }
 
-.gif-word {
+.gif-word a {
   color: white;
   font-size: 40pt;
   text-align:center;
 }
 
 .gif-word a:hover{
-  color: black;
+  color: white;
   outline: black;
   text-decoration: none;
 }
