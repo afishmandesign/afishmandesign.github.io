@@ -80,7 +80,7 @@ footer a:hover{
 }
 
 .gif-word {
-  color: black;
+  color: white;
   font-size: 40pt;
   text-align:center;
 }
@@ -176,7 +176,6 @@ a:hover, .phone-num:hover {
 }
 
 .hover {
-  /* height: 294px; */
   overflow: hidden;
   position: relative;
   padding-bottom: 100%;
