@@ -64,11 +64,14 @@ button {
 }
 
 footer .row {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
-  font-size: 10pt;
-  line-height: 1;
-  font-weight: lighter;
-  color:black;
+  line-height: 1.1;
+}
+
+footer p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+    font-weight: 600;
+    font-size: 10pt;
+    padding-left: 24px;
 }
 
 footer a:hover{
@@ -322,26 +325,21 @@ p.hover-3-description {
 
   p {
     font-size: 14pt;
-    font-size: 1.5vw;
   }
 
   .col-text {
-    font-size: 10pt;
-    font-size: 1.6vw;
+    font-size: 12pt;
   }
 
   h1, button {
     font-size: 4em;
-    font-size: 6vw;
   }
 
   h3 {
     font-size: 2em;
-    font-size: 4vw;
   }
 
   .hover-text {
     font-size: 14pt;
-    font-size: 1.5vw;
   }
 }
