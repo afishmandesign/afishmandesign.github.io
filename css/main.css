@@ -79,6 +79,10 @@ footer a:hover{
   color: black;
 }
 
+.icon-span {
+  padding-left: 24px;
+}
+
 .design-word { 
   color: #FF4F26; 
 }
