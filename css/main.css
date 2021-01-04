@@ -65,13 +65,14 @@ button {
 
 footer .row {
   line-height: 1.1;
+  color: black;
 }
 
 footer p {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
-    font-weight: 600;
-    font-size: 10pt;
-    padding-left: 24px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+  font-weight: 600;
+  font-size: 10pt;
+  padding-left: 24px;
 }
 
 footer a:hover{
