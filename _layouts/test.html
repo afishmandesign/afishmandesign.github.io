@@ -18,12 +18,13 @@
     <script src="https://secure-ds.serving-sys.com/BurstingcachedScripts/libraries/createjs/easeljs/0_8_1/movieclip-0.8.1.min.js"></script>
     <script type="text/javascript" src="https://secure-ds.serving-sys.com/BurstingScript/adKit/adkit.js"></script>
     <script src="Ampersand-300x250_Canvas.js"></script>
+    <script src="Delta-300x250_Canvas.js"></script>
 
     <script>
     var canvas, stage, exportRoot;
 
-    function init() {
-        canvas = document.getElementById("canvas");
+    function init1() {
+        canvas = document.getElementById("canvas1");
         exportRoot = new lib.Ampersand300x250_Canvas();
 
         stage = new createjs.Stage(canvas);
@@ -36,9 +37,26 @@
     }
     </script>
 
-</head>
-<body onload="init();">
+    <script>
+    var canvas, stage, exportRoot;
     
+    function init2() {
+        canvas = document.getElementById("canvas2");
+        exportRoot = new lib.Delta300x250_Canvas();
+    
+        stage = new createjs.Stage(canvas);
+        stage.addChild(exportRoot);
+        stage.update();
+        stage.enableMouseOver();
+    
+        createjs.Ticker.setFPS(lib.properties.fps);
+        createjs.Ticker.addEventListener("tick", stage);
+    }
+    </script>
+
+</head>
+<body onload="init1(); init2();">
+
     <nav>
         <a href="/">
             <h1>afishman<span class="design-word">design</span></h1>
