@@ -19,43 +19,77 @@
     <script type="text/javascript" src="https://secure-ds.serving-sys.com/BurstingScript/adKit/adkit.js"></script>
     <script src="Ampersand-300x250_Canvas.js"></script>
     <script src="Delta-300x250_Canvas.js"></script>
+    <script src="Hashtag-300x250_Canvas.js"></script>
+    <script src="Percent-300x250_Canvas.js"></script>
 
     <script>
-    var canvas, stage, exportRoot;
+        var canvas, stage, exportRoot;
 
-    function init1() {
-        canvas = document.getElementById("canvas1");
-        exportRoot = new lib.Ampersand300x250_Canvas();
+        function init1() {
+            canvas = document.getElementById("canvas1");
+            exportRoot = new lib.Ampersand300x250_Canvas();
 
-        stage = new createjs.Stage(canvas);
-        stage.addChild(exportRoot);
-        stage.update();
-        stage.enableMouseOver();
+            stage = new createjs.Stage(canvas);
+            stage.addChild(exportRoot);
+            stage.update();
+            stage.enableMouseOver();
 
-        createjs.Ticker.setFPS(lib.properties.fps);
-        createjs.Ticker.addEventListener("tick", stage);
-    }
+            createjs.Ticker.setFPS(lib.properties.fps);
+            createjs.Ticker.addEventListener("tick", stage);
+        }
     </script>
 
     <script>
-    var canvas, stage, exportRoot;
-    
-    function init2() {
-        canvas = document.getElementById("canvas2");
-        exportRoot = new lib.Delta300x250_Canvas();
-    
-        stage = new createjs.Stage(canvas);
-        stage.addChild(exportRoot);
-        stage.update();
-        stage.enableMouseOver();
-    
-        createjs.Ticker.setFPS(lib.properties.fps);
-        createjs.Ticker.addEventListener("tick", stage);
-    }
+        var canvas, stage, exportRoot;
+        
+        function init2() {
+            canvas = document.getElementById("canvas2");
+            exportRoot = new lib.Delta300x250_Canvas();
+        
+            stage = new createjs.Stage(canvas);
+            stage.addChild(exportRoot);
+            stage.update();
+            stage.enableMouseOver();
+        
+            createjs.Ticker.setFPS(lib.properties.fps);
+            createjs.Ticker.addEventListener("tick", stage);
+        }
+    </script>
+
+    <script>
+        var canvas, stage, exportRoot;
+        
+        function init3() {
+            canvas = document.getElementById("canvas3");
+            exportRoot = new lib.Hashtag300x250_Canvas();
+        
+            stage = new createjs.Stage(canvas);
+            stage.addChild(exportRoot);
+            stage.update();
+            stage.enableMouseOver();
+        
+            createjs.Ticker.setFPS(lib.properties.fps);
+            createjs.Ticker.addEventListener("tick", stage);
+        }
+    </script>
+    <script>
+        var canvas, stage, exportRoot;
+        
+        function init4() {
+            canvas = document.getElementById("canvas4");
+            exportRoot = new lib.Percent300x250_Canvas();
+        
+            stage = new createjs.Stage(canvas);
+            stage.addChild(exportRoot);
+            stage.update();
+        
+            createjs.Ticker.setFPS(lib.properties.fps);
+            createjs.Ticker.addEventListener("tick", stage);
+        }
     </script>
 
 </head>
-<body onload="init1(); init2();">
+<body onload="init1(); init2(); init3(); init4();">
 
     <nav>
         <a href="/">
