@@ -1,4 +1,4 @@
-AuthUserFile /.htpasswd
+AuthUserFile /home/afishmandesign/.htpasswd
 AuthName "afishmandesign"
 AuthType Basic
 require valid-user
