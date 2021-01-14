@@ -82,6 +82,8 @@ button {
 footer .row {
   line-height: 1.1;
   color: black;
+  padding-top:40px;
+  padding-bottom:40px;
 }
 
 footer p {
@@ -92,10 +94,6 @@ footer p {
 
 footer a:hover{
   color: black;
-}
-
-.icon-span {
-  padding-left: 24px;
 }
 
 .design-word { 
@@ -144,7 +142,7 @@ a:hover, .phone-num:hover {
 
 .icon-linkedin {
   content: url('/imgs/footer/linkedin.png');
-
+  margin-right: 12px;
 }
 
 /* Style the button that is used to open and close the collapsible content */
