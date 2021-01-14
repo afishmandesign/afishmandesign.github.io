@@ -360,4 +360,8 @@ p.hover-3-description {
   .gif-word a {
     font-size: 40pt;
   }
+
+  footer p {
+    margin-bottom:0;
+  }
 }
